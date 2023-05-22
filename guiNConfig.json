@@ -1,0 +1,550 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "5529015958113835665",
+  "muxEnabled": false,
+  "sysProxyType": 1,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": null,
+  "domainStrategy4Freedom": null,
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": null,
+  "routingIndex": 0,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "checkPreReleaseUpdate": false,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "5529015958113835665",
+      "configType": 6,
+      "configVersion": 2,
+      "sort": 70,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "3c961735-81a7-4384-a776-f7b9130f08a6",
+      "alterId": 0,
+      "security": "",
+      "network": "grpc",
+      "remarks": "mhn",
+      "headerType": "gun",
+      "requestHost": "",
+      "path": "kjsutrojangrpc",
+      "streamSecurity": "tls",
+      "allowInsecure": "false",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [
+        "h2"
+      ],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": ""
+    },
+    {
+      "indexId": "5680489813315513408",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 51,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "none",
+      "network": "tcp",
+      "remarks": "mhn1.mhnmohsen.xyz_VLESS_XTLS/TLS-direct_TCP",
+      "headerType": "none",
+      "requestHost": "mhn1.mhnmohsen.xyz",
+      "path": "",
+      "streamSecurity": "xtls",
+      "allowInsecure": "false",
+      "testResult": "",
+      "subid": "",
+      "flow": "xtls-rprx-direct",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5102510181946112847",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 20,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "none",
+      "network": "tcp",
+      "remarks": "mhn1.mhnmohsen.xyz_VLESS_XTLS/TLS-splice_TCP",
+      "headerType": "none",
+      "requestHost": "mhn1.mhnmohsen.xyz",
+      "path": "",
+      "streamSecurity": "xtls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "xtls-rprx-splice",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5224414173159441906",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 30,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "none",
+      "network": "ws",
+      "remarks": "mhn1.mhnmohsen.xyz_VLESS_WS",
+      "headerType": "",
+      "requestHost": "mhn1.mhnmohsen.xyz",
+      "path": "/civhws",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "Timeout",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5549723371528263286",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 40,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "mhn1.mhnmohsen.xyz_vmess_ws",
+      "headerType": "none",
+      "requestHost": "mhn1.mhnmohsen.xyz",
+      "path": "/civhvws",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5512495564791552574",
+      "configType": 5,
+      "configVersion": 2,
+      "sort": 50,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "none",
+      "network": "grpc",
+      "remarks": "mhn1.mhnmohsen.xyz_VLESS_gRPC",
+      "headerType": "gun",
+      "requestHost": "",
+      "path": "civhgrpc",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [
+        "h2"
+      ],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5213250251133935521",
+      "configType": 6,
+      "configVersion": 2,
+      "sort": 60,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "9a3a9920-7a6f-488d-ae27-6a014916d80b",
+      "alterId": 0,
+      "security": "",
+      "network": "grpc",
+      "remarks": "mhn1.mhnmohsen.xyz_trojan_gRPC",
+      "headerType": "gun",
+      "requestHost": "",
+      "path": "civhtrojangrpc",
+      "streamSecurity": "tls",
+      "allowInsecure": "false",
+      "testResult": "",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [
+        "h2"
+      ],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": null
+    },
+    {
+      "indexId": "5732857061132983498",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 70,
+      "address": "mhn1.mhnmohsen.xyz",
+      "port": 443,
+      "id": "796f0f09-dc99-4e64-a6b5-b2bcfb0787de",
+      "alterId": 0,
+      "security": "auto",
+      "network": "grpc",
+      "remarks": "mhn1.mhnmohsen.xyz_null",
+      "headerType": "gun",
+      "requestHost": "",
+      "path": "civhtrojangrpc",
+      "streamSecurity": "tls",
+      "allowInsecure": "false",
+      "testResult": "The underlying connection was closed: An unexpected error occurred on a send.",
+      "subid": "",
+      "flow": "",
+      "sni": "mhn1.mhnmohsen.xyz",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0,
+      "fingerprint": ""
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainLocation": "235, 0",
+    "mainSize": "1450, 1044",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 100,
+      "address": 251,
+      "port": 100,
+      "security": 120,
+      "network": 120,
+      "streamSecurity": 100,
+      "subRemarks": 100,
+      "testResult": 120
+    }
+  },
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "黑名单(Blacklist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": [
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [
+            "geoip:telegram"
+          ],
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire",
+            "geosite:tld-!cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": [
+    {
+      "eGlobalHotkey": 0,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 1,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 2,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 3,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    }
+  ],
+  "groupItem": [
+    {
+      "id": "",
+      "remarks": "Group",
+      "sort": 0
+    }
+  ],
+  "coreTypeItem": [
+    {
+      "configType": 1,
+      "coreType": 2
+    },
+    {
+      "configType": 2,
+      "coreType": 2
+    },
+    {
+      "configType": 3,
+      "coreType": 2
+    },
+    {
+      "configType": 4,
+      "coreType": 2
+    },
+    {
+      "configType": 5,
+      "coreType": 2
+    },
+    {
+      "configType": 6,
+      "coreType": 2
+    }
+  ]
+}
